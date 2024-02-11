@@ -1,0 +1,148 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+
+
+header {
+    width: 100%;
+    height: 100vh;
+    background-image: linear-gradient(500deg, #C711E2, #4AD8FE, #4AD8FE);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.container {
+    width: 1200px;
+    height: 80vh;
+    background-image: linear-gradient(500deg, #C711E2, #349fbc, #349fbc);
+    box-shadow: 0 0 100px #002f3c;
+    padding: 15px 30px;
+
+}
+
+.content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.content select {
+    width: 150px;
+    height: 30px;
+    font-size: 20px;
+    outline: none;
+    border-radius: 5px;
+    padding: 2px;
+}
+
+.content p {
+    font-size: 35px;
+}
+
+
+.card {
+    margin-top: 90px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.card p {
+    font-size: 38px;
+}
+
+form {
+    margin-top: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+form input {
+    width: 300px;
+    height: 35px;
+    padding-left: 5px;
+    font-size: 18px;
+    outline: none;
+    border-radius: 5px;
+    border: 1px solid black;
+}
+
+.card2 {
+    margin-top: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.card2 p {
+    font-size: 38px;
+}
+
+.modal {
+    width: 400px;
+    position: absolute;
+    height: 300px;
+    text-align: center;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: linear-gradient(215deg, #5FD1EB, #FCA756, #D52CC3);
+    top: 100px;
+    border-radius: 10px;
+    box-shadow: 0 0 100px #fff;
+    flex-direction: column;
+    display: none;
+}
+
+.modal.active {
+    display: block;
+}
+
+.modal p {
+    font-size: 38px;
+    margin-top: 10px;
+    margin: 30px auto;
+    padding: 5px;
+
+}
+
+.text1 {
+    width: 220px;
+    border-radius: 50px;
+    background-image: linear-gradient(215deg, #D52CC3, #FCA756, #5FD1EB);
+    box-shadow: 0 0 20px #fff;
+
+}
+
+.text2 {
+    width: 300px;
+    border-radius: 50px;
+    background-image: linear-gradient(215deg, #9FBFA8, #FCA756, #D52CC3);
+    box-shadow: 0 0 20px #fff;
+
+}
+
+.text3 a {
+    width: 200px;
+    height: 50px;
+    font-size: 25px !important;
+    border-radius: 50px;
+    background: black;
+    color: #fff;
+    box-shadow: 0 0 20px #fff;
+    text-decoration: none;
+    display: inline-block;
+    padding-top: 10px;
+
+}
+
+.text{
+    user-select: none;
+}
